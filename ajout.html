@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset = "utf-8"/>
+                <link rel="stylesheet" href="ajout.css" />
+                <title>Rajoute un livre</title>
+        </head>
+        <header>
+                <h1 class="Titre_General"> Trouve ton Livre All Rights Reserved</h1>
+                <h3 class="Projet"> Projet TDLOG 2016 Lady Ouggourni, Sir Vessaire, Sir Bandelier</h3>
+        </header>
+        <body>
+                <h1>Espace partage</h1>
+                <h3>Aide nous à construire notre base de données</h3>
+                <p>Un livre t'a plu et tu veux le partager aux autres utilisateurs ? Tu trouves ça scandaleux qu'on ne propose pas l'oeuvre entière de Dostoïevski ? Participe à la construction du site !<p>
+
+                <h4>Instructions</h3>
+
+                <p>Pour rajouter un livre qui t'a plu, c'est très simple. Il te suffit de rentrer quelques informations sur le livre en question selon les tags qui suivent. Assure-toi juste de connaître l'ISBN (<a href="#ISBN">C'est quoi ?</a>) de ton livre, c'est le plus important. Tu peux remplir les autres critères selon ton propre avis. N'hésite pas à ajouter des commentaires pour plus de précisions pour les autres utilisateurs. À toi de jouer !</p>
+
+                <FORM>
+                <p class="ISBN"> <span class="MotGras">ISBN</span>:
+                        <input type="text" name="ISBN">
+                </p>
+                <p class="Genre">        <span class="MotGras">Genre</span> :
+                        <br/>
+                        <input type="checkbox" name="Roman" value="g1">Roman
+                </p>
+                <p class="Theme"> <strong>Thème</strong> :
+                        <br/><input type="checkbox" name="Policier" value="th1">Policier
+                        <br/><input type="checkbox" name="Fantaisie" value="th2">Fantaisie
+                        <br/><input type="checkbox" name="Amour" value="th3">Amour
+                        <br/><input type="checkbox" name="Humour" value="th4">Humour
+                        <br/><input type="checkbox" name="Horreur" value="th5">Horreur
+                        <br/><input type="checkbox" name="Aventure" value="th6">Aventure
+                        <br/><input type="checkbox" name="Espionnage" value="th7">Espionnage
+                        <br/><input type="checkbox" name="Conte" value="th8">Conte
+                        <br/><input type="checkbox" name="Absurde" value="th9">Absurde
+                        <br/><input type="checkbox" name="Historique" value="th10">Historique
+                        <br/><input type="checkbox" name="Mémoires" value="th11">Mémoires
+                        <br/><input type="checkbox" name="Anti-Héros" value="th12">Anti-Héros
+                </p>
+                <p class="Epoque"> <span class="MotGras">Époque</span> :
+                        <br/><input type="checkbox" name="Vraiment Vieux" value="ep1">César envahissait la Gaule
+                        <br/><input type="checkbox" name="Vieux" value="ep2">On brûlait les sorcières
+                        <br/><input type="checkbox" name="Renaissance" value="ep3">On découvrait des continents
+                        <br/><input type="checkbox" name="Temps Modernes" value="ep4">On dépensait l'argent du contribuable dans des jardins royaux
+                        <br/><input type="checkbox" name="XVIII" value="ep5">On décapitait des rois
+                        <br/><input type="checkbox" name="début XIX" value="ep6">THUG Napoléon
+                        <br/><input type="checkbox" name="fin XIX" value="ep7">THUG Moustache
+                        <br/><input type="checkbox" name="début XX" value="ep8">Guerres Mondiales
+                        <br/><input type="checkbox" name="milieu XX" value="ep9">Trentes Glorieuses
+                        <br/><input type="checkbox" name="moderne" value="ep10">80s-Nos jours
+                </p>
+                <p class="Sensation"> <span class="MotGras">Sensation</span> :
+                        <br/><input type="checkbox" name="inspiration" value="se5">Qui inspire
+                        <br/><input type="checkbox" name="réfléxion" value="se6">Qui fait réfléchir
+                        <br/><input type="checkbox" name="surprise" value="se7">Qui surprend
+                        <br/><input type="checkbox" name="rêve" value="se8">Qui fait rêver
+                        <br/><input type="checkbox" name="rire" value="se9">Qui fait rire
+                        <br/><input type="checkbox" name="peur" value="se10">Qui fait peur
+                        <br/><input type="checkbox" name="émotion" value="se11">Qui émeut
+                        <br/><input type="checkbox" name="random" value="se12">Peu Importe
+                </p>
+                <p class="Nombre_de_Pages"> <span class="MotGras">Nombre de Pages</span> :
+                        <br/><input type="checkbox" name="0-30" value="nbp1">0-30
+                        <br/><input type="checkbox" name="30-80" value="nbp2">30-80
+                        <br/><input type="checkbox" name="80-120" value="nbp3">80-120
+                        <br/><input type="checkbox" name="120-180" value="nbp4">120-180
+                        <br/><input type="checkbox" name="180-250" value="nbp5">180-250
+                        <br/><input type="checkbox" name="250-350" value="nbp6">250-350
+                        <br/><input type="checkbox" name="350-500" value="nbp7">350-500
+                        <br/><input type="checkbox" name="500-750" value="nbp1">500-750
+                        <br/><input type="checkbox" name="700-1000" value="nbp1">700-1000
+                        <br/><input type="checkbox" name=">1000" value="nbp1">>1000
+                </p>
+                <p class="Taille">
+                        <span class="MotGras">Taille</span> :
+                        <br/><input type="checkbox" name="Livre de Poche" value"poche">Livre de Poche
+                </p>
+                <p class="Complexite"> <span class="MotGras">Complexité à lire</span> :
+                        <br/><input type="checkbox" name="facile" value="cx1">Petit Lait
+                        <br/><input type="checkbox" name="moyen" value="cx2">Ça va
+                        <br/><input type="checkbox" name="morceaux" value="cx3">J'ai sauté des passages mais j'ai quand même compris l'histoire
+                        <br/><input type="checkbox" name="difficile" value="cx4">J'ai rien compris mais c'est un incontournable
+                </p>
+                <p> <span class="MotItalique">Fais-nous rêver avec une image</span> :
+
+
+
+                <h5 id="ISBN">L'ISBN est un numéro unique pour chaque édition d'un livre qui te permet non seulement de distinguer les oeuvres entre elles (comme les titres) mais également les différentes éditions d'une même oeuvre. Il se situe sur la quatrième de couverture du livre, à côté du code barre.</h5>
+
+</html>

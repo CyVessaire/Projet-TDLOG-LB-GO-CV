@@ -1,0 +1,107 @@
+body
+{
+        font-family:Verdana;
+}
+h1
+{
+        font-family: impact;
+}
+header
+{
+        background-image: url("header.jpg");
+        color : black;
+}
+body
+{
+        background: purple url("opinion.jpg") no-repeat right;
+        color : white;
+}
+.Titre_General
+{
+        text-transform: capitalize;
+        font-size: 60px;
+}
+.Projet
+{
+        font-family: Courier;
+        font-size: 30px;
+        text-transform: capitalize;
+}
+.MotGras
+{
+        font-weight: bold;
+}
+.MotItalique
+{
+        font-style: italic;
+}
+.ISBN
+{
+        width: 200px;
+        border: 2px double;
+        text-align: justify;
+        padding: 12px;
+}
+.Genre
+{
+        width: 140px;
+        border: 2px inset olive;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
+.Theme
+{
+        width: 140px;
+        border: 2px inset purple;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
+.Epoque
+{
+        width: 420px;
+        border: 2px inset maroon;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
+.Sensation
+{
+        width: 170px;
+        border: 2px inset red;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
+.Nombre_de_Pages
+{
+        width: 170px;
+        border: 2px inset teal;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
+.Taille
+{
+        width: 170px;
+        border: 2px inset lime;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
+.Complexite
+{
+        width: 550px;
+        border: 2px inset green;
+        border-radius: 10px;
+        text-align: justify;
+        padding: 12px;
+        overflow: scroll;
+}
