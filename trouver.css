@@ -1,0 +1,77 @@
+*{
+    font-family: Verdana;
+}
+
+body{
+
+    background-color: rgb(255, 176, 98);
+}
+
+/*
+h2{
+    border: 3px blue dashed;
+}
+.nav
+{
+border: 3px blue dashed;
+}
+*/
+
+p
+{
+    color: rgb(69,33,177);
+    font-size: 1.5em;
+    width: 50%;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+h1
+{
+    color: rgb(255, 128,65);
+    font-size: 2em;
+}
+
+.epoque{
+    color: rgb(69,33,177);
+    font-size: 1.5em;
+    width: 50%;
+    border: 1px solid black;
+    text-align: justify;
+}
+/* Supprime les styles appliquÃ©s par dÃ©faut aux listes. S'applique Ã©galement Ã  la sous-liste */
+.nav {
+    list-style: none none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.nav a {
+    display: block;
+    padding:.5em;
+    color: blue;
+    background: rgb(255, 176, 98);
+    text-decoration: none;
+}
+.nav a:focus,
+.nav a:hover {
+    color: black;
+    background: #ffc;
+    text-decoration: underline;
+}
+.nav-item {
+    float: left; /* Pour que les liens sâ€™affichent horizontalement */
+    position: relative; /* CrÃ©e un contexte de positionnement pour les sous-listes */
+}
+.sub-nav {
+    display: none; /* Masque la sous-liste */
+    position: absolute; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichÃ©e */
+    left: 0; /* FIX IE7 : pour que le sous-menu sâ€™aligne avec son conteneur */
+    top: 2em; /* FIX IE7 : pour que le sous-menu sâ€™aligne avec son conteneur, on le positionne explicitement en bas du conteneur */
+    white-space: nowrap; /* Pour que le texte ne revienne pas Ã  la ligne */
+    background: white; /* FIX IE7 : Ã©vite que la sous-liste ne disparaisse au moment oÃ¹ le curseur arrive au-dessus */
+    margin-top: -2px; /* Pour que le sous-menu recouvre son parent, facilitant le passage de la souris de lâ€™un Ã  lâ€™autre */
+}
+.nav-item:hover .sub-nav {
+    display: block; /* Affiche cette sous-liste au survol de son conteneur */
+}
