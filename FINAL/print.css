@@ -1,0 +1,20 @@
+#wrapper {position:relative;width:1200px;margin:auto;margin-top:0px;padding:0;}
+#header {position:relative;width:1200px;margin:auto;}
+[id|=edt_], object, .my-svg{width:100%;display:block;max-width:none;}
+.my-svg{display:block;width:900px;height:636px;}
+.width_edt{width:744.095px;}
+#ui-datepicker-div{display: none;}
+
+#gocontent,#header, #nav, #aside, #footer, .scroll-top-wrapper,.noprint{display: none;}
+a{text-decoration:none}
+#content,#main, #wrapper{width: 100%;display:block;}
+#edt_1,#edt_2,#edt_3,#edt_4,#edt_5,#edt_6,#edt_7,#edt_8,#edt_9,#edt_10{page-break-inside: avoid;}
+.bloc_edt{display:run-in;width: 100%;page-break-inside: avoid;-webkit-print-color-adjust:exact;}
+
+.ChGe{box-shadow: inset 0 0 0 1000px #fff5c3;}
+.ChOr{box-shadow: inset 0 0 0 1000px #fdd9c1;}
+.Phys{box-shadow: inset 0 0 0 1000px #d1ede1;}
+.Autre{box-shadow: inset 0 0 0 1000px #e6e6e6;}
+.valide_0{border:0px solid #ff0000;}
+.valide_2{border:0px solid #8800aa;}
+.valide_1{border:0px solid #91cf60;}
