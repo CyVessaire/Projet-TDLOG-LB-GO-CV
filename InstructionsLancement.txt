@@ -1,0 +1,29 @@
+Projet de TDLOG de Cyrille Vessaire, Louis Bandelier et Gaelle Ouggourni.
+
+
+Tous les fichiers de la version finale sont dans le dossier "Final".
+Pour lancer le site:
+
+1 - Telecharger XAMPP pour votre système d'exploitation
+2 - Installer XAMPP (lancer le fichier téléchargé en mode admnistrateur)
+3 - Lancer XAMPP en tant qu'administrateur 
+4 - Aller dans l'onglet "Manage Serveurs", et clicker sur "Start All" (cela lancera le serveur local) / clicker sur start pour les serveurs Apache2 et MySQL
+5 - Aller sur votre navigateur, et entrer l'URL "localhost/phpmyadmin"
+6 - Clicker sur l'onglet "Import", sur le bouton "Browse..." et ajouter le fichier *.sql du depot git
+7 - Clicker sur le bouton "Go" en bas de la page
+
+(Dans le cas ou une ERREUR surviendrait:
+clicker sur l'onglet "SQL" et copier-coller l'intégralité du fichier .sql dans la console de cet onglet, puis clicker sur "Go" pour avoir une erreur plus précise)
+
+9 - Stopper le serveur local (dans XAMPP, clicker sur "Stop All" dans l'onglet Manage Serveur
+
+10 - Copier le dossier du depot git dans le dossier suivant:
+	10.a - Windows
+		C:\wamp\www
+	10.b - Mac
+		/Applications/XAMPP/htdocs/
+	10.c - Linux
+		/opt/lampp/htdocs
+11 - Relancer XAMPP et le serveur local
+12 - Accèder au site via l'URL "/localhost/TouverUnLivre/accueil.html"
+	
